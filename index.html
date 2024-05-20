@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="images/clear.png" type="image/x-icon" />
+    <!-- Css Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div class="card">
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Enter Your City Name"
+            spellcheck="false"
+          />
+          <button><i class="ri-search-line"></i></button>
+        </div>
+        <div class="image">
+          <img src="images/clear.png" width="60%" />
+        </div>
+        <div class="temp-city">
+          <h2 class="temp">Temp</h2>
+          <div class="city">City</div>
+        </div>
+        <div class="hum">
+          <img src="images/humidity.png" height="30" />
+          <div>
+            <h2>Hum%</h2>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <img src="images/wind.png" height="30" />
+          <div>
+            <h2>Wind km/h</h2>
+            <p>Wind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript File -->
+    <script src="main.js"></script>
+  </body>
+</html>
